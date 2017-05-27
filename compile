@@ -1,0 +1,1 @@
+g++ RFID_data.o Funcs.cpp Main.cpp -o project -Wall -Werror `pkg-config --cflags --libs gtk+-3.0`
